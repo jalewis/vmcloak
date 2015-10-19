@@ -30,3 +30,5 @@ class Java7(Dependency):
         self.a.killprocess("iexplore.exe")
 
         self.a.remove("C:\\java7.exe")
+    
+        self.disable_javaupdate()
